@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		38E711672E6DE7BE009132DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E711482E6DE7BC009132DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E7114F2E6DE7BC009132DF;
+			remoteInfo = Timer_selfwork;
+		};
+		38E711712E6DE7BE009132DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E711482E6DE7BC009132DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E7114F2E6DE7BC009132DF;
+			remoteInfo = Timer_selfwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38E711502E6DE7BC009132DF /* Timer_selfwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer_selfwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E711662E6DE7BE009132DF /* Timer_selfworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Timer_selfworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E711702E6DE7BE009132DF /* Timer_selfworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Timer_selfworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		38E711782E6DE7BE009132DF /* Exceptions for "Timer_selfwork" folder in "Timer_selfwork" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 38E7114F2E6DE7BC009132DF /* Timer_selfwork */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		38E711522E6DE7BC009132DF /* Timer_selfwork */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38E711782E6DE7BE009132DF /* Exceptions for "Timer_selfwork" folder in "Timer_selfwork" target */,
+			);
+			path = Timer_selfwork;
+			sourceTree = "<group>";
+		};
+		38E711692E6DE7BE009132DF /* Timer_selfworkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Timer_selfworkTests;
+			sourceTree = "<group>";
+		};
+		38E711732E6DE7BE009132DF /* Timer_selfworkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Timer_selfworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E7114D2E6DE7BC009132DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E711632E6DE7BE009132DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E7116D2E6DE7BE009132DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E711472E6DE7BC009132DF = {
+			isa = PBXGroup;
+			children = (
+				38E711522E6DE7BC009132DF /* Timer_selfwork */,
+				38E711692E6DE7BE009132DF /* Timer_selfworkTests */,
+				38E711732E6DE7BE009132DF /* Timer_selfworkUITests */,
+				38E711512E6DE7BC009132DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E711512E6DE7BC009132DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E711502E6DE7BC009132DF /* Timer_selfwork.app */,
+				38E711662E6DE7BE009132DF /* Timer_selfworkTests.xctest */,
+				38E711702E6DE7BE009132DF /* Timer_selfworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E7114F2E6DE7BC009132DF /* Timer_selfwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E711792E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfwork" */;
+			buildPhases = (
+				38E7114C2E6DE7BC009132DF /* Sources */,
+				38E7114D2E6DE7BC009132DF /* Frameworks */,
+				38E7114E2E6DE7BC009132DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				38E711522E6DE7BC009132DF /* Timer_selfwork */,
+			);
+			name = Timer_selfwork;
+			packageProductDependencies = (
+			);
+			productName = Timer_selfwork;
+			productReference = 38E711502E6DE7BC009132DF /* Timer_selfwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E711652E6DE7BE009132DF /* Timer_selfworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E7117E2E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfworkTests" */;
+			buildPhases = (
+				38E711622E6DE7BE009132DF /* Sources */,
+				38E711632E6DE7BE009132DF /* Frameworks */,
+				38E711642E6DE7BE009132DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E711682E6DE7BE009132DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38E711692E6DE7BE009132DF /* Timer_selfworkTests */,
+			);
+			name = Timer_selfworkTests;
+			packageProductDependencies = (
+			);
+			productName = Timer_selfworkTests;
+			productReference = 38E711662E6DE7BE009132DF /* Timer_selfworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E7116F2E6DE7BE009132DF /* Timer_selfworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E711812E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfworkUITests" */;
+			buildPhases = (
+				38E7116C2E6DE7BE009132DF /* Sources */,
+				38E7116D2E6DE7BE009132DF /* Frameworks */,
+				38E7116E2E6DE7BE009132DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E711722E6DE7BE009132DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38E711732E6DE7BE009132DF /* Timer_selfworkUITests */,
+			);
+			name = Timer_selfworkUITests;
+			packageProductDependencies = (
+			);
+			productName = Timer_selfworkUITests;
+			productReference = 38E711702E6DE7BE009132DF /* Timer_selfworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E711482E6DE7BC009132DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					38E7114F2E6DE7BC009132DF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					38E711652E6DE7BE009132DF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 38E7114F2E6DE7BC009132DF;
+					};
+					38E7116F2E6DE7BE009132DF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 38E7114F2E6DE7BC009132DF;
+					};
+				};
+			};
+			buildConfigurationList = 38E7114B2E6DE7BC009132DF /* Build configuration list for PBXProject "Timer_selfwork" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E711472E6DE7BC009132DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 38E711512E6DE7BC009132DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E7114F2E6DE7BC009132DF /* Timer_selfwork */,
+				38E711652E6DE7BE009132DF /* Timer_selfworkTests */,
+				38E7116F2E6DE7BE009132DF /* Timer_selfworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E7114E2E6DE7BC009132DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E711642E6DE7BE009132DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E7116E2E6DE7BE009132DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E7114C2E6DE7BC009132DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E711622E6DE7BE009132DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E7116C2E6DE7BE009132DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E711682E6DE7BE009132DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E7114F2E6DE7BC009132DF /* Timer_selfwork */;
+			targetProxy = 38E711672E6DE7BE009132DF /* PBXContainerItemProxy */;
+		};
+		38E711722E6DE7BE009132DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E7114F2E6DE7BC009132DF /* Timer_selfwork */;
+			targetProxy = 38E711712E6DE7BE009132DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38E7117A2E6DE7BE009132DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer_selfwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E7117B2E6DE7BE009132DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Timer_selfwork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38E7117C2E6DE7BE009132DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E7117D2E6DE7BE009132DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E7117F2E6DE7BE009132DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer_selfwork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timer_selfwork";
+			};
+			name = Debug;
+		};
+		38E711802E6DE7BE009132DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer_selfwork.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timer_selfwork";
+			};
+			name = Release;
+		};
+		38E711822E6DE7BE009132DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timer_selfwork;
+			};
+			name = Debug;
+		};
+		38E711832E6DE7BE009132DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.mobydev.Timer-selfworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timer_selfwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E7114B2E6DE7BC009132DF /* Build configuration list for PBXProject "Timer_selfwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E7117C2E6DE7BE009132DF /* Debug */,
+				38E7117D2E6DE7BE009132DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E711792E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E7117A2E6DE7BE009132DF /* Debug */,
+				38E7117B2E6DE7BE009132DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E7117E2E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E7117F2E6DE7BE009132DF /* Debug */,
+				38E711802E6DE7BE009132DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E711812E6DE7BE009132DF /* Build configuration list for PBXNativeTarget "Timer_selfworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E711822E6DE7BE009132DF /* Debug */,
+				38E711832E6DE7BE009132DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E711482E6DE7BC009132DF /* Project object */;
+}
