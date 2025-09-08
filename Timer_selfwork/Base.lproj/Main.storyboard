@@ -59,11 +59,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bkq-39-Ooc">
+                                <rect key="frame" x="16" y="766" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="restart.circle.fill" catalog="system" id="9lR-FV-NcK"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fhR-eU-NYm"/>
+                                    <barButtonItem title="Item" image="stop.circle.fill" catalog="system" id="RX6-mp-yj4"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lo1-nT-7Fn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pJF-y8-Am1"/>
+                    <navigationItem key="navigationItem" id="pJF-y8-Am1">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="play.circle.fill" catalog="system" id="mlJ-B9-LeI"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="label" destination="47O-sK-uJJ" id="fvN-Nb-zDU"/>
                     </connections>
@@ -92,6 +103,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="play.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="restart.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="stop.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
