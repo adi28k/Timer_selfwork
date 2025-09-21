@@ -22,7 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="Heg-7l-pKY" kind="show" id="rPv-JU-Loq"/>
+                                    <segue destination="Heg-7l-pKY" kind="show" identifier="SecondVC" id="rPv-JU-Loq"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qqE-Ed-JGu">
@@ -63,9 +63,17 @@
                                 <rect key="frame" x="16" y="766" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="restart.circle.fill" catalog="system" id="9lR-FV-NcK"/>
+                                    <barButtonItem title="Item" image="restart.circle.fill" catalog="system" id="9lR-FV-NcK">
+                                        <connections>
+                                            <action selector="restartTimer:" destination="Heg-7l-pKY" id="uVV-Gb-pHS"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="fhR-eU-NYm"/>
-                                    <barButtonItem title="Item" image="stop.circle.fill" catalog="system" id="RX6-mp-yj4"/>
+                                    <barButtonItem title="Item" image="stop.fill" catalog="system" id="RX6-mp-yj4">
+                                        <connections>
+                                            <action selector="stopTimer:" destination="Heg-7l-pKY" id="BUZ-sz-deu"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -73,7 +81,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="pJF-y8-Am1">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="play.circle.fill" catalog="system" id="mlJ-B9-LeI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="play.circle.fill" catalog="system" id="mlJ-B9-LeI">
+                            <connections>
+                                <action selector="startTimer:" destination="Heg-7l-pKY" id="6hC-v5-7y0"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="label" destination="47O-sK-uJJ" id="fvN-Nb-zDU"/>
@@ -81,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZJ-fU-RAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707.6335877862596" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2134" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bij-Qy-rxw">
@@ -99,13 +111,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eT-SS-5Fd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="-231" y="4"/>
         </scene>
     </scenes>
     <resources>
         <image name="play.circle.fill" catalog="system" width="128" height="123"/>
         <image name="restart.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="stop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="stop.fill" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

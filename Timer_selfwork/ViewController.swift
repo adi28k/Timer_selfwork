@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var textfield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,7 +19,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SecondVC" {
             if let vc = segue.destination as? SecondViewController {
-                vc.text = textfield.text!
+                vc.time = Int(textfield.text!) ?? 0
             }
         }
     }

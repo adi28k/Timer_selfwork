@@ -10,17 +10,23 @@ import UIKit
 class SecondViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
-    var text = ""
+    var time = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        label.text = text
+        label.text = String(time)
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func startTimer(_ sender: Any) {
+    }
+    @IBAction func stopTimer(_ sender: Any) {
+    }
+    
+    @IBAction func restartTimer(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
