@@ -12,15 +12,31 @@ class SecondViewController: UIViewController {
     
     var time = 0
     
+    var timer = Timer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
         label.text = String(time)
         // Do any additional setup after loading the view.
+        
+    }
+    
+    @objc func countTime () {
+        
+        if time < 0 {
+            timer.invalidate()
+            return
+        }
+        label.text = String(time)
+        time -= 1
+        
     }
     
     @IBAction func startTimer(_ sender: Any) {
+        
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countTime), userInfo: nil, repeats: true)
     }
     @IBAction func stopTimer(_ sender: Any) {
     }
