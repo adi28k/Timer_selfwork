@@ -14,13 +14,18 @@ class SecondViewController: UIViewController {
     
     var timer = Timer()
     
+    var savedTime = 0
+    
+    var isTimerRunning = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-        label.text = String(time)
+        label.text = timeString(time: time)
         // Do any additional setup after loading the view.
         
+       savedTime = time
     }
     
     @objc func countTime () {
@@ -29,19 +34,40 @@ class SecondViewController: UIViewController {
             timer.invalidate()
             return
         }
-        label.text = String(time)
+        label.text = timeString(time: time)
         time -= 1
         
     }
     
     @IBAction func startTimer(_ sender: Any) {
         
+        if isTimerRunning {
+            return
+        }
+        
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countTime), userInfo: nil, repeats: true)
+        
+        isTimerRunning = true 
     }
     @IBAction func stopTimer(_ sender: Any) {
+        timer.invalidate()
+        isTimerRunning = false
     }
     
     @IBAction func restartTimer(_ sender: Any) {
+        timer.invalidate()
+        isTimerRunning = false
+         time = savedTime
+        label.text = timeString(time: time)
+        
+    }
+    
+    func timeString(time: Int) -> String {
+        let hour = time / 3600
+        let minute = time / 60 % 60
+        let second = time % 60
+        
+        return String(format: "%02i:%02i:%02i", hour, minute, second)
     }
     /*
     // MARK: - Navigation
