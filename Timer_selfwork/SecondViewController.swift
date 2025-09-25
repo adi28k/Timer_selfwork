@@ -8,67 +8,31 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var startDate: UILabel!
     
-    var time = 0
     
-    var timer = Timer()
+    @IBOutlet weak var endDate: UILabel!
     
-    var savedTime = 0
     
-    var isTimerRunning = false
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    var receiveStartDate: String?
+    
+    var receiveEndDate: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        startDate.text = receiveStartDate
         
-        label.text = timeString(time: time)
+        endDate.text = receiveEndDate
+        
         // Do any additional setup after loading the view.
         
-       savedTime = time
+      
     }
     
-    @objc func countTime () {
-        
-        if time < 0 {
-            timer.invalidate()
-            return
-        }
-        label.text = timeString(time: time)
-        time -= 1
-        
-    }
-    
-    @IBAction func startTimer(_ sender: Any) {
-        
-        if isTimerRunning {
-            return
-        }
-        
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countTime), userInfo: nil, repeats: true)
-        
-        isTimerRunning = true 
-    }
-    @IBAction func stopTimer(_ sender: Any) {
-        timer.invalidate()
-        isTimerRunning = false
-    }
-    
-    @IBAction func restartTimer(_ sender: Any) {
-        timer.invalidate()
-        isTimerRunning = false
-         time = savedTime
-        label.text = timeString(time: time)
-        
-    }
-    
-    func timeString(time: Int) -> String {
-        let hour = time / 3600
-        let minute = time / 60 % 60
-        let second = time % 60
-        
-        return String(format: "%02i:%02i:%02i", hour, minute, second)
-    }
+   
     /*
     // MARK: - Navigation
 
