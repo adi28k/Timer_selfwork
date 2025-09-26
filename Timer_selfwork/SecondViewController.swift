@@ -16,9 +16,13 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var timerLabel: UILabel!
     
+    var receiveDate: String?
+    
     var receiveStartDate: String?
     
     var receiveEndDate: String?
+    
+    var timer: Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
