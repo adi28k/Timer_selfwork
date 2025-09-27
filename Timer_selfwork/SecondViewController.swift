@@ -17,8 +17,11 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     
     var receiveDate: String?
-    
     var receiveStartDate: String?
+    
+    
+    var startDateObj: Date?
+    var endDateObj: Date?
     
     var receiveEndDate: String?
     
@@ -32,7 +35,14 @@ class SecondViewController: UIViewController {
         endDate.text = receiveEndDate
         
         // Do any additional setup after loading the view.
+        let formatter = DateFormatter()
+              formatter.dateFormat = "d MMM yyyy, EEEE h:mm"
         
+        if let startStr = receiveStartDate,
+                  let endStr = receiveEndDate {
+                   startDateObj = formatter.date(from: startStr)
+                   endDateObj = formatter.date(from: endStr)
+               }
       
     }
     
